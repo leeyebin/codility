@@ -2,7 +2,7 @@ class Solution {
 	    public int solution(int N) {
 	    	int Count = 0;
 	    	int tmpCount = 0;
-	    	boolean chk=false;
+	    	boolean chk;
 	    	
 	    	if(N%2==0){
 	    		chk=false;
