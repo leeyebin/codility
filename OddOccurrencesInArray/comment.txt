@@ -2,7 +2,8 @@
 Correctness는 통과되었지만
 Performance tests는 몇개가 오류가 났다.
 
-N^2시간이니 뭐 말다했지 도저히 생각이 나지 않아 문제를 풀고 리뷰를 보고나니
+시간을 조금이라도 줄이려고 Max를 놨지만 N^2시간이니 뭐 말다했지
+도저히 생각이 나지 않아 문제를 풀고 리뷰를 보고나니
 
 https://codility.com/demo/results/trainingBEV3E8-7Y5/
 
