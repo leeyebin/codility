@@ -1,0 +1,4 @@
+https://codility.com/demo/results/trainingK2M4SD-K99
+
+며칠전에 풀은 OddOccurrencesInArray가 생각이 났다.
+무난하게 풀었다.
