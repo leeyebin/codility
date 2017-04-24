@@ -1,0 +1,12 @@
+https://codility.com/demo/results/training2MFMKT-MJB
+https://codility.com/demo/results/trainingMC8E2A-UZJ
+
+바보였다.
+front와 back의 합을 매번 for문이 돌때마다 계산하고 있었다. 
+for문안에 for문 들어있을 때부터 이상하다 생각했어야 했는데
+결국 첫판 performance 점수 빵점
+
+애초에 front는 그렇다 치더라도 back은 전부 합친 상태에서 차례로 뺏으면  for문을 안써도 되었다.
+
+문제를 나누어서 생각하려고 하다보니 앞에 더하기 뒤에 더하기를 분리시켜서 생각한 것 같다.
+사고의 유연성이 필요하다.
