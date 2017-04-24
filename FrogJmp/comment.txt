@@ -1,0 +1,4 @@
+https://codility.com/demo/results/trainingA9JTJT-2HR/
+
+나누어 떨어지면 그냥 그 몫을 리턴하고
+나누어 지지 않으면 몫에 1더한다.
