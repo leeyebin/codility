@@ -1,3 +1,5 @@
+하루에 한문제지만 FrogJmp를 너무 날로 먹어서 한문제를 더 풀었다.
+
 https://codility.com/demo/results/training2MFMKT-MJB
 https://codility.com/demo/results/trainingMC8E2A-UZJ
 
