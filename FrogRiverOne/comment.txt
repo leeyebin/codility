@@ -1,0 +1,5 @@
+https://codility.com/demo/results/trainingWFYC4N-355/
+
+처음에 boolean 배열을 이용해서 풀려고 했는데 얼마전에 풀었던 문제 중에 Set을 사용했던 부분이 생각났고,
+
+이후에 두번째 아이디어는 애초에 Set에 1부터 X까지 수를 넣은후에 A[]를 차례로 돌리면서 isEmpty()인지 검사하는 것을 사용하기로 하였다.
