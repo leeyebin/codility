@@ -1,0 +1,8 @@
+https://codility.com/demo/results/training3VDBAR-9Y7/
+
+62프로
+
+시간복잡도 실패
+
+M+N이 아니라 M*N으로 풀어서 그런 것 같다.
+다시 할 예정
