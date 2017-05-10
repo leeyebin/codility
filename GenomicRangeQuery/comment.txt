@@ -1,8 +1,18 @@
 https://codility.com/demo/results/training3VDBAR-9Y7/
-
 62프로
 
 시간복잡도 실패
 
 M+N이 아니라 M*N으로 풀어서 그런 것 같다.
-다시 할 예정
+
+https://codility.com/demo/results/training9FH2GH-SR2
+100프로
+
+시간복잡도를 M+N으로 맞추었다.
+미리 주어진 S로 2차원 배열에 데이터를 누적시킨다는 점이 중요했던 것 같다.
+Character.toString(S.charAt(i-1))
+
+
+String을 charat에서 추출한다음 map에 다시 String으로 변환해서 넣은 부분은 이전에 해보지 못한 부분이었다.
+
+상당히 애먹었던 문제
