@@ -1,0 +1,3 @@
+https://codility.com/demo/results/trainingZGZZHF-RHK/
+
+그냥 Distinct하는 문제 중복이 허용되지 않는 HashSet을 사용하였다.
