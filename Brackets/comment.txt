@@ -1,0 +1,5 @@
+얼마전 자료구조 시간에 했던 문제라 그냥 풀어서 한번에 못풀어냈다.
+
+1. String을 charAt으로 뽑아내는데 그냥 Stack s = new Stack(); 이렇게 해버려서 switch문의 case에서 if(s.peek() == '(') 에서 오류가 났었다. Stack<Character> = new Stack();
+참고 : https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+2. 또한 예외처리도 미흡했다.(ex: ")(") Codility는 예외도 콕콕잡아줘서 좋은 것 같다.
