@@ -1,4 +1,4 @@
- Nesting
+Nesting
 Determine whether given string of parentheses is properly nested.
 Task description
 A string S consisting of N characters is called properly nested if:

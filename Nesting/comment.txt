@@ -1,3 +1,7 @@
-https://codility.com/demo/results/training5YPBHF-GGQ/
+https://codility.com/demo/results/training5YPBHF-GGQ
+
+https://codility.com/demo/results/trainingFC74GC-Q2H(코드리뷰후)
 
 이전 bracket문제와 거의 비슷하여 java에서 제공되는 Stack을 사용하지 않고 간단하게 arrayList를 사용하여 스택을 구현하여 사용해 보았다.
+
+형원이한테 코드리뷰를 부탁했는데 도움이 많이 되었다. 알고리즘 문제라고 어쨋든 돌아가기만하면 되지라는 마음을 가지면 안되겠다. 코딩규칙도 잘 지켜야겠다고 느꼈다.

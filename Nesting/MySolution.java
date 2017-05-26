@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
 	public int solution(String S) {
@@ -6,13 +7,13 @@ class Solution {
 		for(int k=0; k<S.length(); k++){
 			switch(S.charAt(k)){
 			case '(':
-				F.FakePush(S.charAt(k));
+				F.fakePush(S.charAt(k));
 				break;
 			case ')':
-				if(F.FakeIsNotEmpty()){
-					if(F.FakePeek()=='('){
-						F.FakePop();
-					}else{
+				if (F.fakeIsNotEmpty()) {
+					if (F.fakePeek() == '(') {
+						F.fakePop();
+					} else {
 						return 0;
 					}
 				}else{
@@ -21,34 +22,33 @@ class Solution {
 			}
 		}
 		
-		if(F.FakeIsNotEmpty()==false){
+		if(F.fakeIsNotEmpty()==false){
 			return 1;
-		}else{
-			return 0;
 		}
+		return 0;
+
     }
 }
 
 class FakeStack{
-	ArrayList<Character> arr = new ArrayList<Character>();
+	List<Character> arr = new ArrayList<Character>();
 	
-	public void FakePush(char c){
+	public void fakePush(char c){
 		arr.add(c);
 	}
 	
-	public void FakePop(){
+	public void fakePop(){
 		arr.remove(arr.size()-1);
 	}
 	
-	public char FakePeek(){
+	public char fakePeek(){
 		return arr.get(arr.size()-1);
 	}
 	
-	public boolean FakeIsNotEmpty(){
+	public boolean fakeIsNotEmpty(){
 		if(arr.size()==0){
 			return false;
-		}else{
-			return true;
 		}
+		return true;
 	}
 }
