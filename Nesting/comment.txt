@@ -1,0 +1,3 @@
+https://codility.com/demo/results/training5YPBHF-GGQ/
+
+이전 bracket문제와 거의 비슷하여 java에서 제공되는 Stack을 사용하지 않고 간단하게 arrayList를 사용하여 스택을 구현하여 사용해 보았다.
